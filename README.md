@@ -7,6 +7,9 @@ Goal is to eventually share endpoint to API I built from scraping WWOZ's XML wit
 #### Hesitations
 Was thinking about using's Ruby's Spotify client wrapper but like flexibility of writing my own queries. Might go back to it if I run into issues with OAuth. OAuth is required to write to my playlist (add songs to WWOZ playlist).
 
+#### Issues
+WWOZ seems to not be consistant with the way they document their play feed, regular expression/gsub errors will no doubt occur when they mispell track names, artists, album names, etc.
+
 
 Sample of my scraped then constructed WWOZ endpoint: 
 ```
