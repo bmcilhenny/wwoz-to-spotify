@@ -1,4 +1,4 @@
-### WWOZ To Spotify
+# WWOZ To Spotify
 Goal is to eventually share endpoint to API I built from scraping WWOZ's XML with Nokogiri. Once deployed I will use that data to run scheduled tasks to update my Spotify playlist WWOZ via Spotify's API.
 
 #### Technologies Used:
